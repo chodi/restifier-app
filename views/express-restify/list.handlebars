@@ -1,0 +1,12 @@
+<ol>{{#each users}}
+  <h4>{{this.name}}</h4>
+  <ul>
+    <li>
+      <a href="update/{{this._id}}">UPDATE </a>
+    </li>
+    <li>
+      <a href="todo/list-todo/{{this.name}}">UPDATE Tasks</a>
+    </li>
+  </ul>
+{{/each}}
+</ol>
